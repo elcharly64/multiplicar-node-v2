@@ -1,0 +1,42 @@
+para iniciar el commit
+git init
+para agregar los cambios desde la última versión
+git add .
+para realizar el commit
+git commit -m "Comentario"
+para recuperar los archivos del sistema si se borran o cambian accidentalmente
+git checkout -- .
+para recuperar los módulos de node usados en tu app
+npm install
+para establecer el origen del git remoto (puede cambiarse luego)
+git remote add origin https://github.com/elcharly64/multiplicar-node-v2.git
+para ver el url origen de mi git
+git remote -v
+para cambiar el url origen del git de mi proyecto
+git remote set-url origin https://github.com/elcharly64/multiplicar-node-v2.git
+para establecer el branch main
+git branch -M main
+para hacer un push, ya establecido el origen y el branch
+git push -u origin main
+
+
+
+
+create a new repository on the command line
+echo "# multiplicar-node-v2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/elcharly64/multiplicar-node-v2.git
+git push -u origin main
+
+
+push an existing repository from the command line
+git remote add origin https://github.com/elcharly64/multiplicar-node-v2.git
+git branch -M main
+git push -u origin main
+
+
+PAT ago 30 + 90 dias
+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
