@@ -1,0 +1,7 @@
+Este directorio es una version altenativa del 03-bases-node
+De acuerdo a la nueva version del video, agosto 2022
+
+Yo podría eliminar toda la carpeta node_modules y tan solo con escribir en consola
+npm install
+Todos los módulos se reconstruyen porque sus referencias están en los archivos
+package.json y package-lock.json

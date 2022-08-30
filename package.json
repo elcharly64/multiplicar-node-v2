@@ -1,0 +1,16 @@
+{
+  "name": "iniciando-node",
+  "version": "1.0.0",
+  "description": "Tablas de multiplicar y escritura en archivos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app 3"
+  },
+  "author": "Carlos",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.5.1"
+  }
+}
