@@ -18,7 +18,8 @@ para establecer el branch main
 git branch -M main
 para hacer un push, ya establecido el origen y el branch
 git push -u origin main
-
+o simplemente
+git push
 
 
 
